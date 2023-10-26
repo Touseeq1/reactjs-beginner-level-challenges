@@ -1,0 +1,214 @@
+/* @import url(https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata&text=Hello%20World);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  background-color: #d2dbdd;
+}
+.heading__style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    color: #868686;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.slot_inner{
+    text-align: center;
+    background-color: aqua;
+}
+.card__image{
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.card__info{
+    background-color: #fff;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    background-color: #fff;
+}
+.card{
+    margin: 25px;
+    transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+    background-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(red, green, blue, alpha);
+    float: left;
+}
+.card:hover{
+    box-shadow: 0px 30px 18px -18px rgba(red, green, blue, alpha);
+    transform: scale(1.05,1.05);
+} 
+                                  Counter css*/
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(133, 141, 125);
+}
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 15px 20 px;
+    background-color: coral;
+    color: cornsilk;
+    border: 30px solid red;
+    outline: none;
+    border-radius:5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.head{
+    text-size-adjust: bold;
+                                     Event and Form 
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    background-color:rgb(230, 247, 247);
+}
+div{
+    width:100%;
+    height:100vh;
+    background:blueviolet;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    color:chartreuse;
+    align-self: center;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
+}
+p{
+    width:30%;
+    padding:17px 30px;
+    border:none;
+    color: rgb(17, 17, 1);
+    outline:none;
+    margin: 10px 0;
+    text-align: center;
+    align-self: center;
+}
+input{
+    width:50%;
+    padding:20px 20px;
+    border:none;
+    color: rgb(17, 17, 1);
+    outline:none;
+    margin: 17px 0;
+    text-align: center;
+    align-self: center;
+}
+button{
+     padding:25px 10px;
+     margin-left: 340px;
+     margin-right: 340px;
+     background:rgb(110, 240, 106);
+     border:5px solid black;
+     outline:none;
+     cursor: pointer;
+     border-radius:5px;
+     text-transform:uppercase;
+}                               
+
+                                /* Increment and decrement */
+/* input{
+    margin: 40px 0 0 0;
+    text-align: center;
+    height: 30px;
+    width: 60%;
+    top: 10px;
+    border:none;
+    font-size:20px;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #8566aa;
+                    }
+h1{ 
+    color:chartreuse;
+    align-self: center;
+    background: transparent;
+    background-color: saddlebrown;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10 px;
+    box-shadow:5px 5px 15px -5px rgb(0, 0, 0, 0.3);
+    text-shadow: 0 2px 2px black;}                       input{
+    text-align: center;
+    height: 30px;
+    width: 60%;
+    top: 10px;
+    border:none;
+    font-size:20px;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #8566aa;
+    }
+    .main{
+        padding-top: 40px ;
+        width: 100%;
+        height: 100vh;
+        background-color: slategray;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+ .center{
+        margin-left: 400px;
+        width:25%;
+        height:80vh;
+        background-color:aquamarine;
+        box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5);
+        border-radius:15px;
+        }
+     .b1:hover{
+        color: rgb(243, 19, 30);
+        }
+      .b1{
+        margin: 50px 10px 5px 5px;
+        background-color: coral;
+        color: rgb(11, 189, 26);
+        border: 10px solid red;
+        outline: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius:20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 20px;
+    } 
+    .button{
+        margin-top: 90px;
+    }
+    .b2{
+        font-size: 50px;
+        flex-direction: column;
+        margin: 10px 10px 100px 5px; /* trbl 
+        background-color: coral;
+        color: rgb(168, 135, 4);
+        border: 10px solid red;
+        outline: none;
+        border-radius:20px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }  */
